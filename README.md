@@ -2,7 +2,7 @@
 
 ## contents
 
-- 1장 JPA 소개
+- [1장 JPA 소개](src/main/resources/contents/1/README.md)
 - 2장 JPA 시작
 - 3장 영속성 관리
 - 4장 엔티티 매핑
