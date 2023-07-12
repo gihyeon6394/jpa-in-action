@@ -300,7 +300,7 @@ idolMember1==idolMember2; // true
 
 ## 3. JPA란 무엇인가?
 
-<img src="img.png" width="40%">
+<img src="img.png" width="60%">
 
 - JPA, Java Persistence API
 - 자바 진영의 ORM 기술 표준
@@ -316,15 +316,15 @@ idolMember1==idolMember2; // true
 
 #### 저장
 
-<img src="img_2.png" width="40%">
+<img src="img_2.png" width="70%">
 
 #### 조회
 
-<img src="img_3.png" width="40%">
+<img src="img_3.png" width="70%">
 
 ### 3.1 JPA 소개
 
-<img src="img_4.png" width="40%">
+<img src="img_4.png" width="50%">
 
 - JPA : `Hibernate`를 기반의 새로운 Java ORM 표준
 - Interface이기 떄문에 실제 구현체를 선택해야함
