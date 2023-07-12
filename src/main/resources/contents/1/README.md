@@ -260,11 +260,11 @@ Team team = idolMember.getTeam(); // 연관 객체
 - 지연로딩을 통해 객체 그래프 탐색
 - 지연로딩 : 연관객체를 실제 사용하는 시점까지 SELECT SQL을 미루는 것
 
-```java
+````
 IodlMember iolMember=jpa.find(IdolMember.class,memberId); // SQL : SELECT FROM IDOL_MEMBER
 
-        Team team=idolMember.getTeam();
-        team.getTeamName(); // SQL : SELECT FROM TEAM
+Team team=idolMember.getTeam();
+team.getTeamName(); // SQL : SELECT FROM TEAM
 ````
 
 - 즉시 로딩 : 연관된 객체를 미리 JOIN해서 함께 조회
